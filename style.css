@@ -149,3 +149,38 @@
     background-color: #111111;
     color: #fff;
 }
+
+.shop-h{
+    font-size: 24px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.shop-items{
+    display: flex;
+   justify-content: space-between;
+   padding-left: 50px;
+  padding-right: 50px;
+   
+}
+
+.image1 img, .image2 img, .image3 img{
+    width: 465px;
+    height: 465px;
+    margin-bottom: 20px;
+}
+
+span{
+    padding-left: 240px;
+}
+
+.p-h, .p-h span {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.p-p{
+    font-size: 16px;
+}
