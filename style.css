@@ -19,7 +19,7 @@
     height: 20px;
     width: 20px;
 }
-.nav-2-logo img{
+.nav-2-logo img {
     height: 50px;
     width: 50px;
 }
@@ -111,11 +111,11 @@
 }
 
 
-.main-content{
+.main-content {
     display: flex;
 }
 
-.main-content img{
+.main-content img, .trending-section-img img{
     width: 100%;
   padding-left: 50px;
   padding-right: 50px;
@@ -125,7 +125,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
 .main-content-add-text h1{
@@ -183,4 +183,22 @@ span{
 
 .p-p{
     font-size: 16px;
+}
+
+.trending-section-img{
+    display: flex;
+}
+
+.dont-miss-img{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.dont-miss-img img{
+    width: 700px;
+    height: 700px;
 }
